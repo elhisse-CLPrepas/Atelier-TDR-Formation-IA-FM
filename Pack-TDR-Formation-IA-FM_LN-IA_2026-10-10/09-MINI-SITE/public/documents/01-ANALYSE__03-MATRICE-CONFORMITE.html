@@ -1,0 +1,282 @@
+<!doctype html><html lang="fr"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Matrice TDR | LN-IA</title><style>
+:root{color-scheme:light;--ink:#14324c;--blue:#173e61;--cyan:#07889a;--muted:#52687b;--line:#d9e5eb;--bg:#f4f8fb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.62 system-ui,Segoe UI,Arial,sans-serif}
+header{background:linear-gradient(125deg,#102b45,#1e5877);color:white;padding:3rem max(5vw,24px)}header p{max-width:850px;color:#e4f1f7}
+a{color:#08788d}header a{color:#adf5f1}.wrap{max-width:1160px;margin:auto;padding:2rem 24px}
+nav{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0}nav a{color:white;font-weight:600}
+h1{font-size:clamp(1.9rem,4vw,3.15rem);letter-spacing:-.03em;line-height:1.14;margin:.55rem 0 1rem}h2{font-size:1.55rem;margin-top:2rem}h3{font-size:1.16rem;margin-top:1.5rem}
+.kicker{font-size:.84rem;letter-spacing:.13em;text-transform:uppercase;font-weight:800;color:#8de8e9}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:24px}.metric{padding:1rem;background:#ffffff12;border:1px solid #ffffff44;border-radius:12px}.metric b{display:block;font-size:1.6rem}.metric span{font-size:.85rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:white;border:1px solid var(--line);border-radius:13px;padding:1.3rem;box-shadow:0 8px 24px #1f54720a}.card h3{margin:0 0 8px}
+.pill{color:#075d75;background:#e1f7f8;padding:4px 9px;border-radius:20px;font-size:.8rem;font-weight:700}
+.subtle{color:var(--muted)}.bar{border-left:5px solid var(--cyan);padding:14px 20px;background:white;margin:24px 0;border-radius:5px}
+footer{text-align:center;font-size:.83rem;color:var(--muted);padding:2rem;border-top:1px solid var(--line)}
+article{max-width:950px;background:white;margin:3rem auto;padding:2rem 3rem;border:1px solid var(--line);border-radius:14px;overflow:auto}article h1{font-size:2rem;color:var(--blue)}table{border-collapse:collapse;display:block;overflow-x:auto;width:100%;font-size:.91rem}td,th{border:1px solid var(--line);padding:8px 11px;vertical-align:top;min-width:90px}th{background:#e8f3f6;text-align:left}code,pre{background:#edf4f7}pre{padding:1rem;overflow:auto;white-space:pre-wrap}blockquote{border-left:4px solid var(--cyan);padding:5px 16px;margin:20px 0;background:#eef8f9}button{font:inherit;border:0;background:#0b7990;color:white;padding:10px 15px;border-radius:8px;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #e9c84a;outline-offset:3px}
+@media(max-width:620px){article{padding:1.3rem;margin:1rem}.wrap{padding:1.3rem}}
+</style><body><header><div class="kicker">Projet de réponse TDR · LN-IA</div><nav><a href="../index.html">← Retour à l'accueil</a></nav></header><article><h1>Matrice de conformité : obligation → réponse → preuve</h1>
+<p>Les <strong>références p.</strong> renvoient au PDF primaire présent dans <code>08-REFERENCES/TDR_OFFICIEL_SOURCE.pdf</code>. Les pièces du pack sont des <strong>modèles de réponse</strong>, non des livrables déjà réalisés auprès des participants.</p>
+<h2>A. Douze tâches du prestataire (section III)</h2>
+<table>
+<thead>
+<tr>
+  <th>ID</th>
+  <th>Exigence source</th>
+  <th style="text-align:right">Page</th>
+  <th>Proposition de réponse</th>
+  <th>Preuve dans ce pack</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>E01</td>
+  <td>Diagnostic rapide avant début, synthèse et adaptation</td>
+  <td style="text-align:right">2</td>
+  <td>Questionnaire, segmentation, adaptation</td>
+  <td><code>04.../01-DIAGNOSTIC-INITIAL.md</code></td>
+</tr>
+<tr>
+  <td>E02</td>
+  <td>Finaliser programme et méthode suivant profils</td>
+  <td style="text-align:right">2</td>
+  <td>Ajustement par seuil / profil</td>
+  <td><code>02.../01-NOTE-METHODOLOGIQUE.md</code></td>
+</tr>
+<tr>
+  <td>E03</td>
+  <td>« Learning by doing » et études de cas</td>
+  <td style="text-align:right">2</td>
+  <td>Ateliers et mini-livrables</td>
+  <td><code>05.../01-ATELIERS-GUIDES.md</code></td>
+</tr>
+<tr>
+  <td>E04</td>
+  <td>Socle commun d'usage quotidien</td>
+  <td style="text-align:right">2</td>
+  <td>Documents, sources, Excel, reporting</td>
+  <td><code>02.../02-PROGRAMME-SIX-MODULES.md</code></td>
+</tr>
+<tr>
+  <td>E05</td>
+  <td>Six modules nommés</td>
+  <td style="text-align:right">2</td>
+  <td>M1 à M6 maintenus</td>
+  <td><code>02.../02-PROGRAMME-SIX-MODULES.md</code></td>
+</tr>
+<tr>
+  <td>E06</td>
+  <td>Exercices adaptés aux professions</td>
+  <td style="text-align:right">2</td>
+  <td>Scénarios fictifs métiers</td>
+  <td><code>05.../01-ATELIERS-GUIDES.md</code></td>
+</tr>
+<tr>
+  <td>E07</td>
+  <td>Avancés seulement si besoin</td>
+  <td style="text-align:right">2</td>
+  <td>Annexes optionnelles, non prioritaires</td>
+  <td><code>02.../04-OUTILS-SUPPORTS-LIVRABLES.md</code></td>
+</tr>
+<tr>
+  <td>E08</td>
+  <td>Données personnelles et de santé</td>
+  <td style="text-align:right">3</td>
+  <td>Charte, filtrage, données fictives</td>
+  <td><code>06.../01-CHARTE-IA-SANTE.md</code></td>
+</tr>
+<tr>
+  <td>E09</td>
+  <td>Vérification sources et chiffres</td>
+  <td style="text-align:right">3</td>
+  <td>Contrôle humain obligatoire</td>
+  <td><code>06.../02-CHECKLIST-CONTROLE-HUMAIN.md</code></td>
+</tr>
+<tr>
+  <td>E10</td>
+  <td>Évaluation initiale, finale, satisfaction</td>
+  <td style="text-align:right">3</td>
+  <td>Test et rubriques comparables</td>
+  <td><code>04.../02-TESTS-ET-CORRIGES.md</code></td>
+</tr>
+<tr>
+  <td>E11</td>
+  <td>Séance de suivi post-formation</td>
+  <td style="text-align:right">3</td>
+  <td>Réunion et indicateurs à 30 jours</td>
+  <td><code>04.../04-SATISFACTION-ET-SUIVI.md</code></td>
+</tr>
+<tr>
+  <td>E12</td>
+  <td>Préciser outils, licences et coûts</td>
+  <td style="text-align:right">3</td>
+  <td>Tableau à renseigner avant dépôt</td>
+  <td><code>02.../04-OUTILS-SUPPORTS-LIVRABLES.md</code></td>
+</tr>
+</tbody>
+</table>
+<h2>B. Huit livrables contractuels attendus (section IV)</h2>
+<table>
+<thead>
+<tr>
+  <th>ID</th>
+  <th>Livrable TDR</th>
+  <th style="text-align:right">Page</th>
+  <th>Emplacement / état</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>L01</td>
+  <td>Note + programme finalisés après diagnostic</td>
+  <td style="text-align:right">3</td>
+  <td><code>02-OFFRE-TECHNIQUE/</code> — <strong>version préparatoire</strong></td>
+</tr>
+<tr>
+  <td>L02</td>
+  <td>Synthèse du diagnostic</td>
+  <td style="text-align:right">3</td>
+  <td><code>04.../01-DIAGNOSTIC-INITIAL.md</code> — trame, <strong>non renseignée</strong></td>
+</tr>
+<tr>
+  <td>L03</td>
+  <td>Supports des sessions</td>
+  <td style="text-align:right">3</td>
+  <td>Plans et fiches d'atelier — <strong>supports complets à produire</strong></td>
+</tr>
+<tr>
+  <td>L04</td>
+  <td>Fiches pratiques</td>
+  <td style="text-align:right">3</td>
+  <td><code>05-ATELIERS.../</code> et <code>06-SECURITE/</code> — bases réutilisables</td>
+</tr>
+<tr>
+  <td>L05</td>
+  <td>Bibliothèque de prompts</td>
+  <td style="text-align:right">3</td>
+  <td><code>03.../03-BIBLIOTHEQUE-PROMPTS-METIER.md</code></td>
+</tr>
+<tr>
+  <td>L06</td>
+  <td>Mini-guide sécurité DELM</td>
+  <td style="text-align:right">3</td>
+  <td><code>06.../01-CHARTE-IA-SANTE.md</code> — <strong>à valider par DELM</strong></td>
+</tr>
+<tr>
+  <td>L07</td>
+  <td>Résultats évaluations et satisfaction</td>
+  <td style="text-align:right">3</td>
+  <td><code>04-DIAGNOSTIC-EVALUATION/</code> — <strong>outils, pas résultats</strong></td>
+</tr>
+<tr>
+  <td>L08</td>
+  <td>Compte rendu séance de suivi</td>
+  <td style="text-align:right">3</td>
+  <td><code>04.../04-SATISFACTION-ET-SUIVI.md</code> — modèle, <strong>à remplir</strong></td>
+</tr>
+</tbody>
+</table>
+<h2>C. Huit pièces exigées dans l'offre (section VIII)</h2>
+<table>
+<thead>
+<tr>
+  <th>ID</th>
+  <th>Pièce à fournir</th>
+  <th style="text-align:right">Page</th>
+  <th>Statut du pack</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>P01</td>
+  <td>Note méthodologique</td>
+  <td style="text-align:right">5</td>
+  <td><strong>Projet rédigé, à personnaliser</strong></td>
+</tr>
+<tr>
+  <td>P02</td>
+  <td>Programme détaillé et répartition pratique</td>
+  <td style="text-align:right">5</td>
+  <td><strong>Projet rédigé</strong></td>
+</tr>
+<tr>
+  <td>P03</td>
+  <td>Calendrier et modalité</td>
+  <td style="text-align:right">5</td>
+  <td><strong>Hypothèse de calendrier</strong></td>
+</tr>
+<tr>
+  <td>P04</td>
+  <td>Diagnostic, évaluations et suivi</td>
+  <td style="text-align:right">5</td>
+  <td><strong>Méthodes rédigées</strong></td>
+</tr>
+<tr>
+  <td>P05</td>
+  <td>Supports, outils et livrables</td>
+  <td style="text-align:right">5</td>
+  <td><strong>Description rédigée, licences à confirmer</strong></td>
+</tr>
+<tr>
+  <td>P06</td>
+  <td>CV détaillés formateurs / experts</td>
+  <td style="text-align:right">5</td>
+  <td><strong>MANQUANT : personnes et CV vérifiés</strong></td>
+</tr>
+<tr>
+  <td>P07</td>
+  <td>Références missions comparables</td>
+  <td style="text-align:right">5</td>
+  <td><strong>MANQUANT : preuves et bénéficiaires</strong></td>
+</tr>
+<tr>
+  <td>P08</td>
+  <td>Offre financière HT / TVA / TTC</td>
+  <td style="text-align:right">5</td>
+  <td><strong>Gabarit seulement : chiffrage à établir</strong></td>
+</tr>
+</tbody>
+</table>
+<h2>D. Notation officielle (section IX, p. 6)</h2>
+<table>
+<thead>
+<tr>
+  <th>Critère</th>
+  <th style="text-align:right">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Qualité note et compréhension des besoins</td>
+  <td style="text-align:right">20</td>
+</tr>
+<tr>
+  <td>Pertinence et qualité du programme</td>
+  <td style="text-align:right">20</td>
+</tr>
+<tr>
+  <td>Qualifications et expérience des formateurs</td>
+  <td style="text-align:right">15</td>
+</tr>
+<tr>
+  <td>Références du prestataire</td>
+  <td style="text-align:right">10</td>
+</tr>
+<tr>
+  <td>Organisation et calendrier</td>
+  <td style="text-align:right">5</td>
+</tr>
+<tr>
+  <td><strong>Technique</strong></td>
+  <td style="text-align:right"><strong>70</strong></td>
+</tr>
+<tr>
+  <td>Offre financière</td>
+  <td style="text-align:right">30</td>
+</tr>
+<tr>
+  <td><strong>Total</strong></td>
+  <td style="text-align:right"><strong>100</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Seuil : 49/70 en technique</strong> pour que la proposition financière soit examinée. L'évaluateur, pas LN-IA, attribue les points.</p>
+</article><footer>Dossier de travail du 10.10.2026 — exemples fictifs et documents à personnaliser</footer></body></html>

@@ -1,0 +1,337 @@
+{
+  "pack": "TDR-IA-FM-LN-IA",
+  "version": "2026-10-10",
+  "source_primary": "08-REFERENCES/TDR_OFFICIEL_SOURCE.pdf",
+  "files": [
+    {
+      "chemin": "01-ANALYSE/01-SYNTHESE-DECISIONNELLE.md",
+      "taille_octets": 4134,
+      "sha256": "b06528fdedb598d2fd43985e8177135bb80349a09931afd18458571197bf0cd6"
+    },
+    {
+      "chemin": "01-ANALYSE/02-COMPARAISON-LNIA-TDR.md",
+      "taille_octets": 5445,
+      "sha256": "e80a5c14937c31d6f0dd7114f1a8691c818ac061279e21c0ab6fe53abe7cc471"
+    },
+    {
+      "chemin": "01-ANALYSE/03-MATRICE-CONFORMITE.md",
+      "taille_octets": 4170,
+      "sha256": "264eb13bfa6501e8e2417cf1e8dddc24a954948d0f868f26eda0aecb5ef09bc2"
+    },
+    {
+      "chemin": "01-ANALYSE/04-RISQUES-ARBITRAGES.md",
+      "taille_octets": 2939,
+      "sha256": "70c1fddf3fb5d83284d2fda7cecd61c05639c2bc034c6952ce69fd96585e496a"
+    },
+    {
+      "chemin": "02-OFFRE-TECHNIQUE/01-NOTE-METHODOLOGIQUE.md",
+      "taille_octets": 6965,
+      "sha256": "ae6cca27a5750e7ce062529fc5c525f6349363e16df066186c70998630b8d1b6"
+    },
+    {
+      "chemin": "02-OFFRE-TECHNIQUE/02-PROGRAMME-SIX-MODULES.md",
+      "taille_octets": 5368,
+      "sha256": "664d01dcf18f99161bac6fa0c6ed5bb029c4fecf31db14146db0374e719a0959"
+    },
+    {
+      "chemin": "02-OFFRE-TECHNIQUE/03-CALENDRIER-ET-CHARGE.md",
+      "taille_octets": 3024,
+      "sha256": "dba0618ab4928e269da88af1a48885dc73cfb81c7180f4c129a5aaea8c1d2cdd"
+    },
+    {
+      "chemin": "02-OFFRE-TECHNIQUE/04-OUTILS-SUPPORTS-LIVRABLES.md",
+      "taille_octets": 2634,
+      "sha256": "14bf7074ebab1dd494a371af6eddab172a7229f38a759d02ad38283a356eb87c"
+    },
+    {
+      "chemin": "03-PROMPTS/01-PROMPT-MAITRE-CADRAGE.md",
+      "taille_octets": 4292,
+      "sha256": "dadcb8554d8937967d4fce9cd793bd19318b98b9ce913d3e76099d70d85e8d68"
+    },
+    {
+      "chemin": "03-PROMPTS/02-PROMPT-MAITRE-PILOTAGE.md",
+      "taille_octets": 3357,
+      "sha256": "9e467dd8419d627bdf1b1c5700af8c80d015c511ea0bf6cc3e336c0165048302"
+    },
+    {
+      "chemin": "03-PROMPTS/03-BIBLIOTHEQUE-PROMPTS-METIER.md",
+      "taille_octets": 4640,
+      "sha256": "47c3956521c6d85986fa156b8152a5d97932edfabcac3e27460f1c48e8b26cee"
+    },
+    {
+      "chemin": "03-PROMPTS/04-AGENTS-MISSIONS-QUALITE.md",
+      "taille_octets": 1764,
+      "sha256": "253908e109337fed2d2b214ef30af6f3447bf2ee8b9a322e11a84251ee4ab505"
+    },
+    {
+      "chemin": "04-DIAGNOSTIC-EVALUATION/01-DIAGNOSTIC-INITIAL.md",
+      "taille_octets": 2408,
+      "sha256": "c69f36f6cae62f133cb797f937bf95c31b21c10b8ff46652bebcac0f135643f6"
+    },
+    {
+      "chemin": "04-DIAGNOSTIC-EVALUATION/02-TESTS-ET-CORRIGES.md",
+      "taille_octets": 3241,
+      "sha256": "b7ebcc14bbc4c65b7fc175c897ebff29241a20f67f97ac3cc34cb52a74ec18dd"
+    },
+    {
+      "chemin": "04-DIAGNOSTIC-EVALUATION/03-GRILLE-COMPETENCES.md",
+      "taille_octets": 1523,
+      "sha256": "a712c0efd4bc7c5b2b553390c5ddfd3de263f5c73f8ffc5ef1ec9c1f2446c721"
+    },
+    {
+      "chemin": "04-DIAGNOSTIC-EVALUATION/04-SATISFACTION-ET-SUIVI.md",
+      "taille_octets": 1985,
+      "sha256": "341c15632307ebac61d609c406e25a637b9442eb3f3baf0d7a2df8703634df70"
+    },
+    {
+      "chemin": "05-ATELIERS-DONNEES-FICTIVES/01-ATELIERS-GUIDES.md",
+      "taille_octets": 3725,
+      "sha256": "30a2e37992287bb3206eec9b5cf17174c793c3cdc44860a9217c3bdc4fccc60a"
+    },
+    {
+      "chemin": "05-ATELIERS-DONNEES-FICTIVES/02-EXEMPLES-LIVRABLES-FICTIFS.md",
+      "taille_octets": 2846,
+      "sha256": "77e6a94dbddac0d8cc7797edda617adb48f357c601585b5ac46293c1b8b836ae"
+    },
+    {
+      "chemin": "05-ATELIERS-DONNEES-FICTIVES/donnees_indicateurs_100pourcent_fictives.csv",
+      "taille_octets": 906,
+      "sha256": "e3edbc467aba511179b443fa29c56fbdf6f2fa7e009442cc1289eac9046d4608"
+    },
+    {
+      "chemin": "06-SECURITE/01-CHARTE-IA-SANTE.md",
+      "taille_octets": 3093,
+      "sha256": "66629cd3ee420ffb88c4722e04a6ddf0d8a7fab75736355396393207511570dc"
+    },
+    {
+      "chemin": "06-SECURITE/02-CHECKLIST-CONTROLE-HUMAIN.md",
+      "taille_octets": 1568,
+      "sha256": "c4af4d18d3752779711a52844c44a60918f78d98255340cc69b4845cf3369770"
+    },
+    {
+      "chemin": "07-CANDIDATURE/01-CHECKLIST-DEPOT.md",
+      "taille_octets": 2107,
+      "sha256": "bcf77962a956f8b9d701829742f3eda63a965f52c3be4a3f7a581472ab2f7d33"
+    },
+    {
+      "chemin": "07-CANDIDATURE/02-TRAME-OFFRE-FINANCIERE.md",
+      "taille_octets": 2688,
+      "sha256": "6ea488ef16448db57110605ef12dbf06d1151cc7dcb3f02e2398333986c6d7a3"
+    },
+    {
+      "chemin": "07-CANDIDATURE/03-CV-EQUIPE-REFERENCES.md",
+      "taille_octets": 2059,
+      "sha256": "ca1f2f6eda9efe286c36a13de525ba7eec2ee6466f46b2514ba310b7b82f911f"
+    },
+    {
+      "chemin": "07-CANDIDATURE/04-DECISIONS-A-VALIDER.md",
+      "taille_octets": 1579,
+      "sha256": "479653eb7adda74db198931d7fd2fb5ba1704f3e0bafa6f87c94e66200f9f264"
+    },
+    {
+      "chemin": "08-REFERENCES/01-SOURCES-ET-LIENS.md",
+      "taille_octets": 3210,
+      "sha256": "84123f4a5885f88b8160cc95e17dc5b1e13b99373270f1948a422d51d2b09705"
+    },
+    {
+      "chemin": "08-REFERENCES/02-INDEX-SOURCES-TDR.md",
+      "taille_octets": 1361,
+      "sha256": "be9bb016267465a7803d71b92f53a66dd96135d86b8659a3d07cda38e5151b64"
+    },
+    {
+      "chemin": "08-REFERENCES/TDR_OFFICIEL_SOURCE.pdf",
+      "taille_octets": 226777,
+      "sha256": "f7f32fbfe21f762687ad2d8599588a3f34e731a6b7eb1b462ca06d28c6480e83"
+    },
+    {
+      "chemin": "09-MINI-SITE/README-SITE.md",
+      "taille_octets": 533,
+      "sha256": "401e2a505c454d636ea7b7fa0c9596876855e3a3a4922fddeba099c12a72047d"
+    },
+    {
+      "chemin": "09-MINI-SITE/documents/01-ANALYSE__01-SYNTHESE-DECISIONNELLE.html",
+      "taille_octets": 7642,
+      "sha256": "0d67e975ba632147cefb259f6a70fb60bd210e87f506a24e49d85120774fe789"
+    },
+    {
+      "chemin": "09-MINI-SITE/documents/01-ANALYSE__02-COMPARAISON-LNIA-TDR.html",
+      "taille_octets": 9991,
+      "sha256": "93cfd00ad39c1b91c16870b0a88a4258a06749117a27340ca098288fa64a6eed"
+    },
+    {
+      "chemin": "09-MINI-SITE/documents/01-ANALYSE__03-MATRICE-CONFORMITE.html",
+      "taille_octets": 10568,
+      "sha256": "cfb533c8f95468d68e57a64c41d35b857b8a93e188b135253a4a504befd8d71d"
+    },
+    {
+      "chemin": "09-MINI-SITE/documents/02-OFFRE-TECHNIQUE__01-NOTE-METHODOLOGIQUE.html",
+      "taille_octets": 10609,
+      "sha256": "60024f65ba80171d837e6187b48870e10d486923e878205eb563e72f49101cfb"
+    },
+    {
+      "chemin": "09-MINI-SITE/documents/02-OFFRE-TECHNIQUE__02-PROGRAMME-SIX-MODULES.html",
+      "taille_octets": 9074,
+      "sha256": "3b3d9b7afbded4a6e1bb296bd67074af858578f68a1d270619637610c70eabcf"
+    },
+    {
+      "chemin": "09-MINI-SITE/documents/02-OFFRE-TECHNIQUE__03-CALENDRIER-ET-CHARGE.html",
+      "taille_octets": 7058,
+      "sha256": "0f1e081235533982d7a5e5428ae807054cd99415a9efdd0c4b00c089572e6b85"
+    },
+    {
+      "chemin": "09-MINI-SITE/documents/03-PROMPTS__01-PROMPT-MAITRE-CADRAGE.html",
+      "taille_octets": 7455,
+      "sha256": "e1e33b95767aa60c37bc18c0ede9c839d716f59ed53289ccace040bfc204180f"
+    },
+    {
+      "chemin": "09-MINI-SITE/documents/03-PROMPTS__02-PROMPT-MAITRE-PILOTAGE.html",
+      "taille_octets": 6441,
+      "sha256": "f157fd599e1041536fc184f91ec435c848812f51153010bbc53edf8cd441b86e"
+    },
+    {
+      "chemin": "09-MINI-SITE/documents/03-PROMPTS__03-BIBLIOTHEQUE-PROMPTS-METIER.html",
+      "taille_octets": 8104,
+      "sha256": "a4da2aa34be6d66d8766b843884c5471b1dd861c7c7b1afc0a99a655ee9d8b3a"
+    },
+    {
+      "chemin": "09-MINI-SITE/documents/05-ATELIERS-DONNEES-FICTIVES__01-ATELIERS-GUIDES.html",
+      "taille_octets": 7484,
+      "sha256": "7ddb718bc9c188245e73799656b29b3597dedddf07740732480626b81292de9e"
+    },
+    {
+      "chemin": "09-MINI-SITE/documents/06-SECURITE__01-CHARTE-IA-SANTE.html",
+      "taille_octets": 6655,
+      "sha256": "4188acaa6ef7eb62444616f51176788112230366a643dd343897afd7d2bca1f0"
+    },
+    {
+      "chemin": "09-MINI-SITE/documents/07-CANDIDATURE__01-CHECKLIST-DEPOT.html",
+      "taille_octets": 5432,
+      "sha256": "9ecedf88e63c76e8fbda3bc1486358daff100dacfeb280384c9d87c56a3255eb"
+    },
+    {
+      "chemin": "09-MINI-SITE/documents/08-REFERENCES__01-SOURCES-ET-LIENS.html",
+      "taille_octets": 6455,
+      "sha256": "44068a77275fd4f29ded1bc6af31b3db7224a9d5e6b1bdccee783c18c1ee36f8"
+    },
+    {
+      "chemin": "09-MINI-SITE/index.html",
+      "taille_octets": 6457,
+      "sha256": "88cf492a9c2f8abb519f19166dcaf4290063834c863f91ff1a768bc6d14d661a"
+    },
+    {
+      "chemin": "09-MINI-SITE/package.json",
+      "taille_octets": 283,
+      "sha256": "bc35359253fa6caead16988be1de8c5cd1c702811f167faebf7360a7540e5d36"
+    },
+    {
+      "chemin": "09-MINI-SITE/public/documents/01-ANALYSE__01-SYNTHESE-DECISIONNELLE.html",
+      "taille_octets": 7642,
+      "sha256": "0d67e975ba632147cefb259f6a70fb60bd210e87f506a24e49d85120774fe789"
+    },
+    {
+      "chemin": "09-MINI-SITE/public/documents/01-ANALYSE__02-COMPARAISON-LNIA-TDR.html",
+      "taille_octets": 9991,
+      "sha256": "93cfd00ad39c1b91c16870b0a88a4258a06749117a27340ca098288fa64a6eed"
+    },
+    {
+      "chemin": "09-MINI-SITE/public/documents/01-ANALYSE__03-MATRICE-CONFORMITE.html",
+      "taille_octets": 10568,
+      "sha256": "cfb533c8f95468d68e57a64c41d35b857b8a93e188b135253a4a504befd8d71d"
+    },
+    {
+      "chemin": "09-MINI-SITE/public/documents/02-OFFRE-TECHNIQUE__01-NOTE-METHODOLOGIQUE.html",
+      "taille_octets": 10609,
+      "sha256": "60024f65ba80171d837e6187b48870e10d486923e878205eb563e72f49101cfb"
+    },
+    {
+      "chemin": "09-MINI-SITE/public/documents/02-OFFRE-TECHNIQUE__02-PROGRAMME-SIX-MODULES.html",
+      "taille_octets": 9074,
+      "sha256": "3b3d9b7afbded4a6e1bb296bd67074af858578f68a1d270619637610c70eabcf"
+    },
+    {
+      "chemin": "09-MINI-SITE/public/documents/02-OFFRE-TECHNIQUE__03-CALENDRIER-ET-CHARGE.html",
+      "taille_octets": 7058,
+      "sha256": "0f1e081235533982d7a5e5428ae807054cd99415a9efdd0c4b00c089572e6b85"
+    },
+    {
+      "chemin": "09-MINI-SITE/public/documents/03-PROMPTS__01-PROMPT-MAITRE-CADRAGE.html",
+      "taille_octets": 7455,
+      "sha256": "e1e33b95767aa60c37bc18c0ede9c839d716f59ed53289ccace040bfc204180f"
+    },
+    {
+      "chemin": "09-MINI-SITE/public/documents/03-PROMPTS__02-PROMPT-MAITRE-PILOTAGE.html",
+      "taille_octets": 6441,
+      "sha256": "f157fd599e1041536fc184f91ec435c848812f51153010bbc53edf8cd441b86e"
+    },
+    {
+      "chemin": "09-MINI-SITE/public/documents/03-PROMPTS__03-BIBLIOTHEQUE-PROMPTS-METIER.html",
+      "taille_octets": 8104,
+      "sha256": "a4da2aa34be6d66d8766b843884c5471b1dd861c7c7b1afc0a99a655ee9d8b3a"
+    },
+    {
+      "chemin": "09-MINI-SITE/public/documents/05-ATELIERS-DONNEES-FICTIVES__01-ATELIERS-GUIDES.html",
+      "taille_octets": 7484,
+      "sha256": "7ddb718bc9c188245e73799656b29b3597dedddf07740732480626b81292de9e"
+    },
+    {
+      "chemin": "09-MINI-SITE/public/documents/06-SECURITE__01-CHARTE-IA-SANTE.html",
+      "taille_octets": 6655,
+      "sha256": "4188acaa6ef7eb62444616f51176788112230366a643dd343897afd7d2bca1f0"
+    },
+    {
+      "chemin": "09-MINI-SITE/public/documents/07-CANDIDATURE__01-CHECKLIST-DEPOT.html",
+      "taille_octets": 5432,
+      "sha256": "9ecedf88e63c76e8fbda3bc1486358daff100dacfeb280384c9d87c56a3255eb"
+    },
+    {
+      "chemin": "09-MINI-SITE/public/documents/08-REFERENCES__01-SOURCES-ET-LIENS.html",
+      "taille_octets": 6455,
+      "sha256": "44068a77275fd4f29ded1bc6af31b3db7224a9d5e6b1bdccee783c18c1ee36f8"
+    },
+    {
+      "chemin": "09-MINI-SITE/style.css",
+      "taille_octets": 2528,
+      "sha256": "e2e7d5c89dc2497a9455966844c05bb7ed8ef150733ea8af122b5e6dc0eda2e9"
+    },
+    {
+      "chemin": "09-MINI-SITE/vite.config.js",
+      "taille_octets": 82,
+      "sha256": "320350dced549cebe2ae248283028ee7ae0fdbb36576a694f70cfbd755f3a30d"
+    },
+    {
+      "chemin": "10-DOCX/NOTE_METHODOLOGIQUE_LNIA_TDR_FM.docx",
+      "taille_octets": 41327,
+      "sha256": "cc0fbb704319ac976b73329569d4285e8d709329d68e344a5e96d5fb42d8fc9d"
+    },
+    {
+      "chemin": "10-DOCX/PROGRAMME_FORMATION_6_MODULES.docx",
+      "taille_octets": 40498,
+      "sha256": "0a13ce9b64e21fdeafb290b4503e01d803df567964d60df56873432c7420374b"
+    },
+    {
+      "chemin": "11-PDF-DE-LECTURE/NOTE_METHODOLOGIQUE_LNIA_TDR_FM.pdf",
+      "taille_octets": 72656,
+      "sha256": "0ae2972a87b0dd36208f672ddbebc22846d1c2376f613026813c5784c6124392"
+    },
+    {
+      "chemin": "11-PDF-DE-LECTURE/PROGRAMME_FORMATION_6_MODULES.pdf",
+      "taille_octets": 73892,
+      "sha256": "6931adfb04912f2ef1f15f8e7e090e389f9015d82e5dea90f98466acc793c840"
+    },
+    {
+      "chemin": "INDEX.md",
+      "taille_octets": 4189,
+      "sha256": "b99c5866f8400fa49b4cbd9c1ede63713e07c892b6d72913ba404bfb48f0580e"
+    },
+    {
+      "chemin": "PLAN_ACTION_DU_10_AU_15_OCTOBRE_2026.md",
+      "taille_octets": 1197,
+      "sha256": "55f5aed1b510779b5d887b13e6f6d6ee84ced982f04f0bb8d865a2fa2ebc805e"
+    },
+    {
+      "chemin": "README.md",
+      "taille_octets": 3160,
+      "sha256": "b37715b334993265820115e9a2ab75add88a78f52fe65b9953843668e31df3bc"
+    }
+  ]
+}

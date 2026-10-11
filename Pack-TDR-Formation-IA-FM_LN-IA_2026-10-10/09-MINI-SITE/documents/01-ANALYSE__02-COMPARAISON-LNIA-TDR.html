@@ -1,0 +1,202 @@
+<!doctype html><html lang="fr"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Écart TDR / LN-IA | LN-IA</title><style>
+:root{color-scheme:light;--ink:#14324c;--blue:#173e61;--cyan:#07889a;--muted:#52687b;--line:#d9e5eb;--bg:#f4f8fb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.62 system-ui,Segoe UI,Arial,sans-serif}
+header{background:linear-gradient(125deg,#102b45,#1e5877);color:white;padding:3rem max(5vw,24px)}header p{max-width:850px;color:#e4f1f7}
+a{color:#08788d}header a{color:#adf5f1}.wrap{max-width:1160px;margin:auto;padding:2rem 24px}
+nav{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0}nav a{color:white;font-weight:600}
+h1{font-size:clamp(1.9rem,4vw,3.15rem);letter-spacing:-.03em;line-height:1.14;margin:.55rem 0 1rem}h2{font-size:1.55rem;margin-top:2rem}h3{font-size:1.16rem;margin-top:1.5rem}
+.kicker{font-size:.84rem;letter-spacing:.13em;text-transform:uppercase;font-weight:800;color:#8de8e9}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:24px}.metric{padding:1rem;background:#ffffff12;border:1px solid #ffffff44;border-radius:12px}.metric b{display:block;font-size:1.6rem}.metric span{font-size:.85rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:white;border:1px solid var(--line);border-radius:13px;padding:1.3rem;box-shadow:0 8px 24px #1f54720a}.card h3{margin:0 0 8px}
+.pill{color:#075d75;background:#e1f7f8;padding:4px 9px;border-radius:20px;font-size:.8rem;font-weight:700}
+.subtle{color:var(--muted)}.bar{border-left:5px solid var(--cyan);padding:14px 20px;background:white;margin:24px 0;border-radius:5px}
+footer{text-align:center;font-size:.83rem;color:var(--muted);padding:2rem;border-top:1px solid var(--line)}
+article{max-width:950px;background:white;margin:3rem auto;padding:2rem 3rem;border:1px solid var(--line);border-radius:14px;overflow:auto}article h1{font-size:2rem;color:var(--blue)}table{border-collapse:collapse;display:block;overflow-x:auto;width:100%;font-size:.91rem}td,th{border:1px solid var(--line);padding:8px 11px;vertical-align:top;min-width:90px}th{background:#e8f3f6;text-align:left}code,pre{background:#edf4f7}pre{padding:1rem;overflow:auto;white-space:pre-wrap}blockquote{border-left:4px solid var(--cyan);padding:5px 16px;margin:20px 0;background:#eef8f9}button{font:inherit;border:0;background:#0b7990;color:white;padding:10px 15px;border-radius:8px;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #e9c84a;outline-offset:3px}
+@media(max-width:620px){article{padding:1.3rem;margin:1rem}.wrap{padding:1.3rem}}
+</style><body><header><div class="kicker">Projet de réponse TDR · LN-IA</div><nav><a href="../index.html">← Retour à l'accueil</a></nav></header><article><h1>Confrontation du besoin des TDR avec la méthode et le style LN-IA</h1>
+<p><strong>Méthode LN-IA :</strong> cadre pédagogique apporté comme proposition. <strong>TDR :</strong> cahier des charges de la DELM. Les notions « conforme », « partiel » et « hors priorité » sont ici des jugements d'analyse, pas une validation de l'institution.</p>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Besoin formulé dans les TDR</th>
+  <th>ADN LN-IA</th>
+  <th>Écart / décision recommandée</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Finalité</td>
+  <td>Usage professionnel quotidien et autonomie</td>
+  <td>Apprendre en produisant et prouver le résultat</td>
+  <td><strong>Très bon alignement</strong>. Partir de tâches documentaires et de reporting.</td>
+</tr>
+<tr>
+  <td>Public</td>
+  <td>Jusqu'à 60 agents et partenaires, métiers variés</td>
+  <td>Formateurs, cadres, porteurs de projets, coachs</td>
+  <td><strong>Adaptation</strong> au secteur VIH/TB et aux niveaux diagnostiqués.</td>
+</tr>
+<tr>
+  <td>Durée</td>
+  <td>Entre octobre et décembre 2026, nombre de jours libre</td>
+  <td>Challenge 100 jours / 7 modules de référence LN-IA</td>
+  <td><strong>Écart de format</strong> : ne pas proposer 100 jours comme cœur de l'offre.</td>
+</tr>
+<tr>
+  <td>Architecture</td>
+  <td>Six modules précisément nommés</td>
+  <td>Méthode en 8 étapes, Challenge 7 modules</td>
+  <td><strong>Reconfigurer</strong> la méthode en 6 modules sans renommer l'exigence.</td>
+</tr>
+<tr>
+  <td>Pédagogie</td>
+  <td>« Learning by doing », études de cas</td>
+  <td>Atelier Comprendre / Atelier Pratiquer, livrable V1</td>
+  <td><strong>Alignement majeur</strong> ; 70 % de temps productif est un objectif proposé.</td>
+</tr>
+<tr>
+  <td>Prompts</td>
+  <td>Requêtes structurées et adaptées</td>
+  <td>Prompt cadré, prompts maîtres, contrôle</td>
+  <td><strong>Alignement majeur</strong> ; fournir une bibliothèque métier.</td>
+</tr>
+<tr>
+  <td>Sécurité</td>
+  <td>Santé, données internes, confidentialité</td>
+  <td>Contrôle humain et validation</td>
+  <td><strong>Renforcement majeur</strong> : charte de gouvernance et règle de non-saisie.</td>
+</tr>
+<tr>
+  <td>Données et Excel</td>
+  <td>Tableaux, reporting, indicateurs</td>
+  <td>Productions structurées, preuves de qualité</td>
+  <td><strong>À étoffer</strong> avec formateur data/Excel et règles de contrôle quantitatif.</td>
+</tr>
+<tr>
+  <td>Évaluation</td>
+  <td>Pré/post-test, satisfaction, suivi</td>
+  <td>Preuve de production / portfolio</td>
+  <td><strong>Complément</strong> avec mesure standardisée et suivi à 30 jours.</td>
+</tr>
+<tr>
+  <td>Technologies</td>
+  <td>IA métier quotidienne ; outils avancés optionnels</td>
+  <td>VS Code, Codex, Git, agents, Vite</td>
+  <td><strong>Attention</strong> : ces outils sont facultatifs et non prérequis.</td>
+</tr>
+<tr>
+  <td>Identité visuelle</td>
+  <td>Institution publique et partenaires</td>
+  <td>Charte et logo LN-IA, identité du formateur</td>
+  <td><strong>Sobriété</strong> : marque de prestataire discrète ; ne pas simuler l'aval institutionnel.</td>
+</tr>
+<tr>
+  <td>Équipe et références</td>
+  <td>Experts complémentaires, expériences attestées</td>
+  <td>Expérience pédagogique du porteur LN-IA</td>
+  <td><strong>Preuves à ajouter</strong> : expert santé, data, sécurité et références vérifiables.</td>
+</tr>
+</tbody>
+</table>
+<h2>De la méthode 8 étapes à la preuve attendue</h2>
+<table>
+<thead>
+<tr>
+  <th>Étape LN-IA</th>
+  <th>Application dans la formation DELM</th>
+  <th>Preuve archivable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1. Besoin réel</td>
+  <td>Choisir une tâche courante d'un agent</td>
+  <td>Fiche de besoin anonymisée</td>
+</tr>
+<tr>
+  <td>2. Cadrage</td>
+  <td>Identifier destinataire, qualité et restrictions</td>
+  <td>Fiche de cadrage de tâche</td>
+</tr>
+<tr>
+  <td>3. Prompt</td>
+  <td>Composer une consigne structurée</td>
+  <td><code>prompt-structure-v1.md</code></td>
+</tr>
+<tr>
+  <td>4. Production</td>
+  <td>Générer un premier résultat</td>
+  <td>Document V1 ou tableau</td>
+</tr>
+<tr>
+  <td>5. Contrôle humain</td>
+  <td>Vérifier sources, chiffres, confidentialité</td>
+  <td>Checklist signée / renseignée</td>
+</tr>
+<tr>
+  <td>6. Correction</td>
+  <td>Améliorer le résultat et tracer les changements</td>
+  <td>Document V2 + journal</td>
+</tr>
+<tr>
+  <td>7. Documentation</td>
+  <td>Décrire paramètres, limites et procédure</td>
+  <td>Fiche opératoire</td>
+</tr>
+<tr>
+  <td>8. Preuve</td>
+  <td>Démontrer une compétence transférable</td>
+  <td>Mini-portfolio / rubriques d'évaluation</td>
+</tr>
+</tbody>
+</table>
+<h2>Ce qu'il faut garder, adapter, écarter</h2>
+<p><strong>Conserver :</strong> pratique structurée, livrables intermédiaires, boucle de validation, bibliothèque de prompts, autonomie et traçabilité.</p>
+<p><strong>Adapter :</strong> durées, vocabulaires, jeux de données, niveau technique, modalités collectives, confidentialité, critères de succès, rythme court, identité visuelle sobre.</p>
+<p><strong>Ne pas imposer :</strong> VS Code, Codex, GitHub, déploiement Vite, prompts techniques complexes, agents autonomes ou n8n. Les proposer en options de prolongement uniquement après diagnostic et validation sécurité.</p>
+<h2>Correspondance 6 modules TDR et démarche LN-IA</h2>
+<table>
+<thead>
+<tr>
+  <th>TDR officiel</th>
+  <th>Déclinaison LN-IA proposée</th>
+  <th>Production finale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>M1 Comprendre l'IA générative et sécuriser son usage</td>
+  <td>Cas d'usage, limites, filtrage sécurité</td>
+  <td>Fiche d'usage autorisé</td>
+</tr>
+<tr>
+  <td>M2 Maîtriser la formulation des prompts</td>
+  <td>Prompt V1 → test → revue → V2</td>
+  <td>Prompt métier contrôlé</td>
+</tr>
+<tr>
+  <td>M3 Documents professionnels, recherche et synthèse</td>
+  <td>TDR, note, recherche et citation</td>
+  <td>Note de synthèse avec sources vérifiées</td>
+</tr>
+<tr>
+  <td>M4 Excel, données, reporting et aide à la décision</td>
+  <td>Nettoyer, agréger, contrôler, expliquer</td>
+  <td>Reporting fictif et tableau de bord</td>
+</tr>
+<tr>
+  <td>M5 IA responsable, sécurité et approfondissements</td>
+  <td>Risques, données de santé, contrôle humain</td>
+  <td>Protocole de contrôle et charte</td>
+</tr>
+<tr>
+  <td>M6 Cas intégrateur, évaluation finale et plan d'action</td>
+  <td>Mission complète + mini-portfolio</td>
+  <td>Livrable intégrateur + plan à 30 jours</td>
+</tr>
+</tbody>
+</table>
+<h2>Consigne sur le style LN-IA</h2>
+<p>Palette proposée : bleu nuit, cyan discret, fond blanc, grilles lisibles, titres sobres ; expliciter la fonction de <strong>prestataire</strong> si la marque LN-IA est utilisée. Le logo officiel LN-IA n'est pas fourni dans ce dossier, donc il n'est ni reproduit ni simulé. Ne pas utiliser les emblèmes du ministère / Fonds mondial sans autorisation. Le design doit privilégier la compréhension, la lisibilité et l'accessibilité des supports.</p>
+</article><footer>Dossier de travail du 10.10.2026 — exemples fictifs et documents à personnaliser</footer></body></html>

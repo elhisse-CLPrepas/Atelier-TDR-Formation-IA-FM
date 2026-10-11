@@ -1,0 +1,34 @@
+ATELIER TDR IA — UTILISATION LOCALE
+
+Le mini-site se trouve dans :
+Pack-TDR-Formation-IA-FM_LN-IA_2026-10-10/09-MINI-SITE
+
+Dans un terminal PowerShell, depuis D:\Atelier-TDR-IA :
+cd .\Pack-TDR-Formation-IA-FM_LN-IA_2026-10-10\09-MINI-SITE
+npm.cmd ci
+npm.cmd run dev
+
+Ouvrir l'adresse locale affichée dans le terminal.
+Arrêter le serveur avec Ctrl+C.
+
+Compilation pour hébergement statique :
+npm.cmd run build
+Le résultat est dans le sous-dossier dist.
+
+Vérification de la version compilée :
+npm.cmd run preview
+
+Le dossier complet est versionné depuis la racine Atelier-TDR-IA.
+Les dépendances, compilations, fichiers .env, archives ZIP et rapports
+techniques locaux sont exclus de Git. package-lock.json est versionné.
+Le manifeste du pack décrit la livraison d'origine du 10 octobre 2026 ;
+après modification, Git devient la référence des versions de travail.
+
+La destination distante et le mode d'hébergement seront documentés
+après leur configuration effective.
+
+DEPOT DISTANT ET PUBLICATION
+https://github.com/elhisse-CLPrepas/Atelier-TDR-Formation-IA-FM
+GitHub Pages : chaque push sur main compile puis publie uniquement dist.
+Adresse prévue : https://elhisse-clprepas.github.io/Atelier-TDR-Formation-IA-FM/
+Cycle de mise à jour depuis la racine : git add ., git commit, puis git push.

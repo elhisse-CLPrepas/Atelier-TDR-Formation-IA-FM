@@ -1,0 +1,70 @@
+<!doctype html><html lang="fr"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Charte sécurité | LN-IA</title><style>
+:root{color-scheme:light;--ink:#14324c;--blue:#173e61;--cyan:#07889a;--muted:#52687b;--line:#d9e5eb;--bg:#f4f8fb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.62 system-ui,Segoe UI,Arial,sans-serif}
+header{background:linear-gradient(125deg,#102b45,#1e5877);color:white;padding:3rem max(5vw,24px)}header p{max-width:850px;color:#e4f1f7}
+a{color:#08788d}header a{color:#adf5f1}.wrap{max-width:1160px;margin:auto;padding:2rem 24px}
+nav{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0}nav a{color:white;font-weight:600}
+h1{font-size:clamp(1.9rem,4vw,3.15rem);letter-spacing:-.03em;line-height:1.14;margin:.55rem 0 1rem}h2{font-size:1.55rem;margin-top:2rem}h3{font-size:1.16rem;margin-top:1.5rem}
+.kicker{font-size:.84rem;letter-spacing:.13em;text-transform:uppercase;font-weight:800;color:#8de8e9}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:24px}.metric{padding:1rem;background:#ffffff12;border:1px solid #ffffff44;border-radius:12px}.metric b{display:block;font-size:1.6rem}.metric span{font-size:.85rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:white;border:1px solid var(--line);border-radius:13px;padding:1.3rem;box-shadow:0 8px 24px #1f54720a}.card h3{margin:0 0 8px}
+.pill{color:#075d75;background:#e1f7f8;padding:4px 9px;border-radius:20px;font-size:.8rem;font-weight:700}
+.subtle{color:var(--muted)}.bar{border-left:5px solid var(--cyan);padding:14px 20px;background:white;margin:24px 0;border-radius:5px}
+footer{text-align:center;font-size:.83rem;color:var(--muted);padding:2rem;border-top:1px solid var(--line)}
+article{max-width:950px;background:white;margin:3rem auto;padding:2rem 3rem;border:1px solid var(--line);border-radius:14px;overflow:auto}article h1{font-size:2rem;color:var(--blue)}table{border-collapse:collapse;display:block;overflow-x:auto;width:100%;font-size:.91rem}td,th{border:1px solid var(--line);padding:8px 11px;vertical-align:top;min-width:90px}th{background:#e8f3f6;text-align:left}code,pre{background:#edf4f7}pre{padding:1rem;overflow:auto;white-space:pre-wrap}blockquote{border-left:4px solid var(--cyan);padding:5px 16px;margin:20px 0;background:#eef8f9}button{font:inherit;border:0;background:#0b7990;color:white;padding:10px 15px;border-radius:8px;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #e9c84a;outline-offset:3px}
+@media(max-width:620px){article{padding:1.3rem;margin:1rem}.wrap{padding:1.3rem}}
+</style><body><header><div class="kicker">Projet de réponse TDR · LN-IA</div><nav><a href="../index.html">← Retour à l'accueil</a></nav></header><article><h1>Projet de mini-charte d'usage responsable de l'IA — contexte DELM / UGFM</h1>
+<p><strong>Version pédagogique proposée, à approuver par les responsables sécurité, juridique et métiers concernés.</strong> Cette charte n'est pas une politique officielle de la DELM, du ministère ou du Fonds mondial.</p>
+<h2>Règles opérationnelles</h2>
+<ol>
+<li><strong>Vérifier les autorisations</strong> : n'utiliser que les outils et comptes validés par l'institution ; un compte individuel gratuit n'est pas automatiquement approprié à un dossier professionnel.</li>
+<li><strong>Ne jamais copier de données de santé personnelles</strong> dans un outil externe non expressément autorisé (noms, numéros, identifiants, dossiers patients, informations permettant une ré-identification).</li>
+<li><strong>Protéger les documents internes, financiers ou contractuels</strong> selon leur classification et les conditions d'utilisation de la plateforme.</li>
+<li><strong>Préférer des données entièrement synthétiques</strong> en formation ; retirer les détails identifiants ne suffit pas toujours à réduire le risque.</li>
+<li><strong>Examiner les sorties</strong> : toute citation, référence, statistique, taux et recommandation doit être confronté à sa source.</li>
+<li><strong>Conserver la responsabilité humaine</strong> : aucun diagnostic, orientation médicale, affectation de ressource ou décision institutionnelle n'est prise par l'IA seule.</li>
+<li><strong>Documenter les traitements</strong> : outil, version si pertinent, finalité, date, entrée admissible, validateur, corrections.</li>
+<li><strong>Limiter le partage et la conservation</strong> des fichiers et transcriptions aux besoins réels et règles locales.</li>
+<li><strong>Signaler les incidents</strong> au circuit autorisé de l'organisation ; ne pas les contourner par un compte personnel.</li>
+<li><strong>Former les participants aux limites</strong> des réponses générées : biais, hallucinations, faux liens, défauts de calcul et confiance excessive.</li>
+</ol>
+<h2>Tri simple des données de formation</h2>
+<table>
+<thead>
+<tr>
+  <th>Catégorie de données</th>
+  <th>Exemple</th>
+  <th>Décision pédagogique par défaut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>A. Créées entièrement pour l'exercice</td>
+  <td>CSV simulé R01–R12</td>
+  <td>Utilisable dans outils approuvés pour formation</td>
+</tr>
+<tr>
+  <td>B. Publiques authentifiées</td>
+  <td>Publication officielle avec source</td>
+  <td>Utilisation selon droits/licence et politique SI</td>
+</tr>
+<tr>
+  <td>C. Internes non publiques</td>
+  <td>Rapport interne / budget de service</td>
+  <td>Autorisation explicite et environnement approuvé</td>
+</tr>
+<tr>
+  <td>D. Personnelles ou de santé</td>
+  <td>Identités, dossiers VIH/TB, résultats individuels</td>
+  <td>Interdit par défaut dans outils externes non autorisés</td>
+</tr>
+</tbody>
+</table>
+<h2>Référentiel externe</h2>
+<ul>
+<li><strong>Maroc / CNDP : loi n° 09-08</strong> : les données concernant la santé sont notamment des données sensibles. <strong>[REF-CNDP]</strong></li>
+<li><strong>OMS : orientations éthiques IA et santé</strong> : enjeux d'inexactitude, biais, sécurité et supervision. <strong>[REF-OMS]</strong></li>
+<li><strong>UNESCO : IA générative en éducation et recherche</strong> : rôle humain, confidentialité et évaluation critique des usages. <strong>[REF-UNESCO]</strong></li>
+</ul>
+<p>Ces textes servent de <strong>références générales</strong>. Le cadre précis de conformité et les éventuelles autorisations CNDP et contrats fournisseurs doivent être évalués par les responsables compétents.</p>
+</article><footer>Dossier de travail du 10.10.2026 — exemples fictifs et documents à personnaliser</footer></body></html>

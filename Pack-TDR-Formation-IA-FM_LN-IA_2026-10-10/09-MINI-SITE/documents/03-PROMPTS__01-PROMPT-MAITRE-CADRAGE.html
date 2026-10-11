@@ -1,0 +1,77 @@
+<!doctype html><html lang="fr"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prompt de cadrage | LN-IA</title><style>
+:root{color-scheme:light;--ink:#14324c;--blue:#173e61;--cyan:#07889a;--muted:#52687b;--line:#d9e5eb;--bg:#f4f8fb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.62 system-ui,Segoe UI,Arial,sans-serif}
+header{background:linear-gradient(125deg,#102b45,#1e5877);color:white;padding:3rem max(5vw,24px)}header p{max-width:850px;color:#e4f1f7}
+a{color:#08788d}header a{color:#adf5f1}.wrap{max-width:1160px;margin:auto;padding:2rem 24px}
+nav{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0}nav a{color:white;font-weight:600}
+h1{font-size:clamp(1.9rem,4vw,3.15rem);letter-spacing:-.03em;line-height:1.14;margin:.55rem 0 1rem}h2{font-size:1.55rem;margin-top:2rem}h3{font-size:1.16rem;margin-top:1.5rem}
+.kicker{font-size:.84rem;letter-spacing:.13em;text-transform:uppercase;font-weight:800;color:#8de8e9}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:24px}.metric{padding:1rem;background:#ffffff12;border:1px solid #ffffff44;border-radius:12px}.metric b{display:block;font-size:1.6rem}.metric span{font-size:.85rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:white;border:1px solid var(--line);border-radius:13px;padding:1.3rem;box-shadow:0 8px 24px #1f54720a}.card h3{margin:0 0 8px}
+.pill{color:#075d75;background:#e1f7f8;padding:4px 9px;border-radius:20px;font-size:.8rem;font-weight:700}
+.subtle{color:var(--muted)}.bar{border-left:5px solid var(--cyan);padding:14px 20px;background:white;margin:24px 0;border-radius:5px}
+footer{text-align:center;font-size:.83rem;color:var(--muted);padding:2rem;border-top:1px solid var(--line)}
+article{max-width:950px;background:white;margin:3rem auto;padding:2rem 3rem;border:1px solid var(--line);border-radius:14px;overflow:auto}article h1{font-size:2rem;color:var(--blue)}table{border-collapse:collapse;display:block;overflow-x:auto;width:100%;font-size:.91rem}td,th{border:1px solid var(--line);padding:8px 11px;vertical-align:top;min-width:90px}th{background:#e8f3f6;text-align:left}code,pre{background:#edf4f7}pre{padding:1rem;overflow:auto;white-space:pre-wrap}blockquote{border-left:4px solid var(--cyan);padding:5px 16px;margin:20px 0;background:#eef8f9}button{font:inherit;border:0;background:#0b7990;color:white;padding:10px 15px;border-radius:8px;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #e9c84a;outline-offset:3px}
+@media(max-width:620px){article{padding:1.3rem;margin:1rem}.wrap{padding:1.3rem}}
+</style><body><header><div class="kicker">Projet de réponse TDR · LN-IA</div><nav><a href="../index.html">← Retour à l'accueil</a></nav></header><article><h1>PROMPT MAÎTRE — Cadrage de la réponse aux TDR DELM / UGFM</h1>
+<p><strong>Mode d'emploi :</strong> copier le prompt ci-dessous dans un assistant IA autorisé. Joindre ou rendre accessible uniquement une copie du TDR qui peut être partagée selon votre politique. Remplacer les champs entre crochets. Vérifier manuellement toute assertion avant de produire l'offre.</p>
+<pre><code class="language-text">RÔLE
+Tu agis comme consultant senior en ingénierie pédagogique, réponse aux appels à consultation,
+IA appliquée aux tâches de gestion et à la santé publique. Tu travailles en appui d'une équipe
+humaine. Tu n'es pas autorisé à inventer des qualifications, prix, délais officiels ou références.
+
+CONTEXTE
+Commanditaire : DELM / UGFM au Maroc. Source primaire : termes de référence des activités
+12218 et 12238 concernant une formation IA au quotidien des programmes VIH / TB.
+Méthode du prestataire : LN-IA « apprendre en produisant », fondée sur la séquence :
+besoin réel &gt; cadrage &gt; prompt &gt; production &gt; contrôle humain &gt; correction &gt; documentation &gt; preuve.
+
+ENTRÉES
+- TDR fourni : [joindre le PDF ou son texte exact]
+- Prestataire réel : [nom juridique / statut / adresse]
+- Équipe confirmée : [noms, expertises, CV vérifiables]
+- Références : [missions attestées avec bénéficiaire et dates]
+- Ressources : [formateurs, salles, ordinateurs, outils / licences autorisées]
+- Contraintes : [budget plafond connu ou INCONNU ; nombre définitif de participants ou INCONNU]
+
+MISSION, PAR ÉTAPES
+1. Extraire une matrice exhaustive des exigences, avec numéro de page et section d'origine.
+2. Distinguer STRICTEMENT trois catégories : TDR EXIGÉ / CHOIX PROPOSÉ / POINT À CONFIRMER.
+3. Faire une analyse des écarts LN-IA / TDR. Conserver les six modules et la sécurité.
+4. Proposer un diagnostic des profils et un format réaliste pour 60 participants maximum.
+5. Construire un programme « learning by doing » avec objectifs, temps, exercices et preuves.
+6. Détailler l'évaluation initiale/finale, la satisfaction et le suivi quelques semaines après.
+7. Identifier outils, licences à vérifier, coûts récurrents, prérequis SI et politique données.
+8. Préparer un plan de remise des huit livrables du TDR.
+9. Lister les pièces de candidature absentes (CV, références, HT/TVA/TTC, etc.).
+10. Vérifier la cohérence des charges : jours par participant, journées-groupes, formateurs-jours.
+
+CONTRAINTES ABSOLUES
+- Aucun traitement de données personnelles ou médicales dans un outil non autorisé.
+- Jeux d'essai 100 % fictifs ; interdiction d'inventer ou d'inférer des chiffres épidémiologiques.
+- Aucune affirmation de conformité juridique ou institutionnelle sans validation compétente.
+- Ne pas inventer une preuve de mission, un expert, un partenariat, une licence ou un tarif.
+- Ne pas remplacer les six modules TDR par le Challenge 100 jours LN-IA.
+- Proposer agents, n8n, QGIS uniquement comme approfondissements conditionnels.
+- Ne jamais reproduire un emblème ou logo officiel sans autorisation.
+- Quand une donnée manque, écrire « A CONFIRMER » et poser une question ciblée.
+
+FORMAT DE SORTIE
+A. Synthèse décisionnelle (max. 1 page)
+B. Tableau TDR &gt; proposition &gt; preuve &gt; risque &gt; statut &gt; source (page)
+C. Grille comparative LN-IA / TDR
+D. Programme en 6 modules : objectifs, séquences, heures, exemples, livrables
+E. Organisation pour 60 participants : hypothèses et calculs explicites
+F. Protocole de sécurité et validation des données
+G. Grille d'évaluation et mesure du transfert
+H. Dossier administratif : pièces présentes/manquantes
+I. Registre des arbitrages et 10 questions maximum à soumettre au décideur
+
+CRITÈRES DE CONTRÔLE FINAL
+Cite chaque exigence aux pages du TDR ; vérifie les calculs ; conserve la priorité aux usages
+quotidiens ; explique chaque hypothèse ; identifie les pièces manquantes ; termine par GO/NO-GO
+conditionnel, sans déclarer le dossier conforme tant que les validations ne sont pas effectuées.
+</code></pre>
+<h2>Test qualité du cadrage</h2>
+<p>Vérifier que l'assistant cite les TDR p.1-6, traite <strong>12 tâches</strong>, <strong>8 livrables</strong>, <strong>8 pièces</strong>, <strong>6 modules</strong>, le seuil technique <strong>49/70</strong> et la date <strong>15/10/2026</strong>. Toute réponse qui invente un prix ou attribue le statut de prestataire retenu doit être rejetée.</p>
+</article><footer>Dossier de travail du 10.10.2026 — exemples fictifs et documents à personnaliser</footer></body></html>

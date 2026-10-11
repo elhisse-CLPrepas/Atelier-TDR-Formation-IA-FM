@@ -1,0 +1,71 @@
+<!doctype html><html lang="fr"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ateliers pratiques | LN-IA</title><style>
+:root{color-scheme:light;--ink:#14324c;--blue:#173e61;--cyan:#07889a;--muted:#52687b;--line:#d9e5eb;--bg:#f4f8fb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.62 system-ui,Segoe UI,Arial,sans-serif}
+header{background:linear-gradient(125deg,#102b45,#1e5877);color:white;padding:3rem max(5vw,24px)}header p{max-width:850px;color:#e4f1f7}
+a{color:#08788d}header a{color:#adf5f1}.wrap{max-width:1160px;margin:auto;padding:2rem 24px}
+nav{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0}nav a{color:white;font-weight:600}
+h1{font-size:clamp(1.9rem,4vw,3.15rem);letter-spacing:-.03em;line-height:1.14;margin:.55rem 0 1rem}h2{font-size:1.55rem;margin-top:2rem}h3{font-size:1.16rem;margin-top:1.5rem}
+.kicker{font-size:.84rem;letter-spacing:.13em;text-transform:uppercase;font-weight:800;color:#8de8e9}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:24px}.metric{padding:1rem;background:#ffffff12;border:1px solid #ffffff44;border-radius:12px}.metric b{display:block;font-size:1.6rem}.metric span{font-size:.85rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:white;border:1px solid var(--line);border-radius:13px;padding:1.3rem;box-shadow:0 8px 24px #1f54720a}.card h3{margin:0 0 8px}
+.pill{color:#075d75;background:#e1f7f8;padding:4px 9px;border-radius:20px;font-size:.8rem;font-weight:700}
+.subtle{color:var(--muted)}.bar{border-left:5px solid var(--cyan);padding:14px 20px;background:white;margin:24px 0;border-radius:5px}
+footer{text-align:center;font-size:.83rem;color:var(--muted);padding:2rem;border-top:1px solid var(--line)}
+article{max-width:950px;background:white;margin:3rem auto;padding:2rem 3rem;border:1px solid var(--line);border-radius:14px;overflow:auto}article h1{font-size:2rem;color:var(--blue)}table{border-collapse:collapse;display:block;overflow-x:auto;width:100%;font-size:.91rem}td,th{border:1px solid var(--line);padding:8px 11px;vertical-align:top;min-width:90px}th{background:#e8f3f6;text-align:left}code,pre{background:#edf4f7}pre{padding:1rem;overflow:auto;white-space:pre-wrap}blockquote{border-left:4px solid var(--cyan);padding:5px 16px;margin:20px 0;background:#eef8f9}button{font:inherit;border:0;background:#0b7990;color:white;padding:10px 15px;border-radius:8px;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #e9c84a;outline-offset:3px}
+@media(max-width:620px){article{padding:1.3rem;margin:1rem}.wrap{padding:1.3rem}}
+</style><body><header><div class="kicker">Projet de réponse TDR · LN-IA</div><nav><a href="../index.html">← Retour à l'accueil</a></nav></header><article><h1>Six ateliers reproductibles — données et documents fictifs</h1>
+<p>Toutes les situations et toutes les valeurs sont <strong>fabriquées pour la formation</strong>. Il ne s'agit pas de statistiques VIH/TB du Maroc. Les activités sont simulées et ne comportent aucune donnée individuelle.</p>
+<h2>Atelier 1 — Classer les usages et les données (M1)</h2>
+<p><strong>Scénario :</strong> un collaborateur veut demander à un outil externe de mettre en forme (a) une note administrative sans nom ni secret ; (b) un tableau de noms de patients ; (c) une feuille de dépenses internes ; (d) un fichier fictif d'indicateurs. <strong>Tâche :</strong> classer chaque cas « utilisable selon autorisation », « validation nécessaire » ou « interdit par défaut ». <strong>Sortie :</strong> fiche d'usage. <strong>Contrôle :</strong> la donnée de santé personnelle est systématiquement interdite dans l'outil non autorisé.</p>
+<h2>Atelier 2 — Construire prompt-structure-v1.md (M2)</h2>
+<p><strong>Scénario :</strong> préparation d'un tableau de suivi de 12 régions codées R01–R12. <strong>Tâche :</strong> écrire un prompt avec rôle, entrée fictive, colonnes, contrôle des dénominateurs, format de tableau et phrases de limite. <strong>Sortie :</strong> <code>prompt-structure-v1.md</code> et révision V2. <strong>Contrôle :</strong> comparer le prompt à la rubrique C2 de l'évaluation.</p>
+<h2>Atelier 3 — Produire une note et contrôler les sources (M3)</h2>
+<p><strong>Scénario :</strong> une direction fictive commande une note d'organisation d'un atelier informatique pour professionnels. <strong>Tâche :</strong> synthétiser un faux TDR d'une page fourni par le formateur, produire une note et relier les éléments à la source. <strong>Sortie :</strong> note d'une page. <strong>Contrôle :</strong> ne pas ajouter de date, coût, organisme ou métrique non fourni.</p>
+<h2>Atelier 4 — Exploiter le CSV et produire un reporting (M4)</h2>
+<p><strong>Entrée :</strong> <code>donnees_indicateurs_100pourcent_fictives.csv</code> avec deux lignes par région codée (VIH et TB). <strong>Tâche :</strong> vérifier le schéma, sommer, calculer les taux de réalisation et de complétude, repérer les écarts. <strong>Sortie :</strong> tableau + note expliquant les constats, <strong>sans prétendre expliquer les causes</strong>.</p>
+<p><strong>Formules :</strong> taux activités = 100 × somme(activites_realisees) / somme(activites_prevues) ; taux rapports = 100 × somme(rapports_recus) / somme(rapports_attendus) ; exécution budget = 100 × somme(depenses_fictives_mad) / somme(budget_fictif_mad). Ces formules sont <strong>pondérées par les effectifs</strong> ; ne pas faire la moyenne naïve des taux régionaux.</p>
+<h2>Atelier 5 — Auditer un prompt de santé publique (M5)</h2>
+<p><strong>Scénario :</strong> un prompt contient un identifiant de patient fictif, une date de naissance fictive et demande une décision clinique. <strong>Tâche :</strong> rejeter, identifier les catégories problématiques et reformuler vers un exercice synthétique et non clinique. <strong>Sortie :</strong> rapport d'audit « accepter / corriger / rejeter ». <strong>Contrôle :</strong> aucune décision clinique automatisée.</p>
+<h2>Atelier 6 — Mini-portfolio de suivi (M6)</h2>
+<p><strong>Mission :</strong> un responsable de projet fictif doit préparer un point de gestion sur les activités prévues/réalisées, rapports et budgets simulés. <strong>Tâche :</strong> établir cadre, prompt, tableau vérifié, note, présentation rapide et plan à 30 jours. <strong>Sortie :</strong> pack personnel avec <code>prompt-v2</code>, <code>reporting</code>, <code>note</code>, <code>checklist</code>, <code>plan-action</code>.</p>
+<h2>Fiche commune d'observation</h2>
+<table>
+<thead>
+<tr>
+  <th>Élément</th>
+  <th>Rempli par participant</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Tâche / besoin</td>
+  <td>[ ]</td>
+</tr>
+<tr>
+  <td>Entrée admissible</td>
+  <td>[ ]</td>
+</tr>
+<tr>
+  <td>Prompt V1 et corrections</td>
+  <td>[ ]</td>
+</tr>
+<tr>
+  <td>Résultat et source</td>
+  <td>[ ]</td>
+</tr>
+<tr>
+  <td>Calcul / vérification</td>
+  <td>[ ]</td>
+</tr>
+<tr>
+  <td>Décision humaine / correction</td>
+  <td>[ ]</td>
+</tr>
+<tr>
+  <td>Preuve finale</td>
+  <td>[ ]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Règle de facilitation :</strong> ne jamais laisser une réponse de modèle être la seule référence d'un indicateur ou d'une décision de terrain.</p>
+</article><footer>Dossier de travail du 10.10.2026 — exemples fictifs et documents à personnaliser</footer></body></html>

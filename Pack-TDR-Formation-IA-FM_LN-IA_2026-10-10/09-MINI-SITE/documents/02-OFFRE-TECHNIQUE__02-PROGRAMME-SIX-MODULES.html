@@ -1,0 +1,69 @@
+<!doctype html><html lang="fr"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Programme de formation | LN-IA</title><style>
+:root{color-scheme:light;--ink:#14324c;--blue:#173e61;--cyan:#07889a;--muted:#52687b;--line:#d9e5eb;--bg:#f4f8fb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.62 system-ui,Segoe UI,Arial,sans-serif}
+header{background:linear-gradient(125deg,#102b45,#1e5877);color:white;padding:3rem max(5vw,24px)}header p{max-width:850px;color:#e4f1f7}
+a{color:#08788d}header a{color:#adf5f1}.wrap{max-width:1160px;margin:auto;padding:2rem 24px}
+nav{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0}nav a{color:white;font-weight:600}
+h1{font-size:clamp(1.9rem,4vw,3.15rem);letter-spacing:-.03em;line-height:1.14;margin:.55rem 0 1rem}h2{font-size:1.55rem;margin-top:2rem}h3{font-size:1.16rem;margin-top:1.5rem}
+.kicker{font-size:.84rem;letter-spacing:.13em;text-transform:uppercase;font-weight:800;color:#8de8e9}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:24px}.metric{padding:1rem;background:#ffffff12;border:1px solid #ffffff44;border-radius:12px}.metric b{display:block;font-size:1.6rem}.metric span{font-size:.85rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:white;border:1px solid var(--line);border-radius:13px;padding:1.3rem;box-shadow:0 8px 24px #1f54720a}.card h3{margin:0 0 8px}
+.pill{color:#075d75;background:#e1f7f8;padding:4px 9px;border-radius:20px;font-size:.8rem;font-weight:700}
+.subtle{color:var(--muted)}.bar{border-left:5px solid var(--cyan);padding:14px 20px;background:white;margin:24px 0;border-radius:5px}
+footer{text-align:center;font-size:.83rem;color:var(--muted);padding:2rem;border-top:1px solid var(--line)}
+article{max-width:950px;background:white;margin:3rem auto;padding:2rem 3rem;border:1px solid var(--line);border-radius:14px;overflow:auto}article h1{font-size:2rem;color:var(--blue)}table{border-collapse:collapse;display:block;overflow-x:auto;width:100%;font-size:.91rem}td,th{border:1px solid var(--line);padding:8px 11px;vertical-align:top;min-width:90px}th{background:#e8f3f6;text-align:left}code,pre{background:#edf4f7}pre{padding:1rem;overflow:auto;white-space:pre-wrap}blockquote{border-left:4px solid var(--cyan);padding:5px 16px;margin:20px 0;background:#eef8f9}button{font:inherit;border:0;background:#0b7990;color:white;padding:10px 15px;border-radius:8px;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #e9c84a;outline-offset:3px}
+@media(max-width:620px){article{padding:1.3rem;margin:1rem}.wrap{padding:1.3rem}}
+</style><body><header><div class="kicker">Projet de réponse TDR · LN-IA</div><nav><a href="../index.html">← Retour à l'accueil</a></nav></header><article><h1>Programme pédagogique proposé — six modules du TDR</h1>
+<p><strong>Proposition de dimensionnement :</strong> 6 h pédagogiques par module et par participant, soit 36 h ; 30 % d'apports/démonstrations, 70 % d'atelier en moyenne. Ces durées sont <strong>proposées</strong>, non prescrites par les TDR. L'hypothèse suppose l'accès à un ordinateur par participant et à un logiciel approuvé.</p>
+<h2>Module 1 — Comprendre l'IA générative et sécuriser son usage</h2>
+<p><strong>Durée proposée :</strong> 6 h (2 h d'apports + 4 h de mise en situation). <strong>But :</strong> comprendre utilités et limites des outils et reconnaître les données non transmissibles.</p>
+<ul>
+<li>Concepts accessibles : IA générative, réponses probabilistes, erreurs, hallucinations, biais, limites de l'exactitude.</li>
+<li>Démonstration : partir d'une tâche de secrétariat/gestion sans donnée confidentielle ; observer une réponse correcte et une réponse trompeuse.</li>
+<li>Exercices : classer des situations « autorisé / à vérifier / interdit par défaut » ; reformuler une demande sans données personnelles.</li>
+<li><strong>Production et évaluation :</strong> fiche d'usage et checklist pré-saisie. Critère : repère 100 % des cas contenant des informations médicales personnelles dans la série d'exercice.</li>
+</ul>
+<h2>Module 2 — Maîtriser la formulation des prompts</h2>
+<p><strong>Durée :</strong> 6 h (1,5 h de méthode + 4,5 h de pratique). <strong>But :</strong> produire un prompt métier testé et corrigé.</p>
+<ul>
+<li>Structure : rôle / tâche / contexte / documents admissibles / contraintes / format / critères de contrôle / demandes de clarification.</li>
+<li>Démonstration : transformer « résume ce rapport » en instruction cadrée avec audience et références documentaires.</li>
+<li>Exercices : rédiger un prompt V1, comparer à une grille, corriger la sortie et livrer V2.</li>
+<li><strong>Production et évaluation :</strong> <code>prompt-structure-v1.md</code>, sortie V1/V2 et grille d'évaluation du résultat. Critère : présence des sept champs essentiels et contrôle explicite.</li>
+</ul>
+<h2>Module 3 — Documents professionnels, recherche et synthèse</h2>
+<p><strong>Durée :</strong> 6 h (1,5 h + 4,5 h). <strong>But :</strong> créer un document professionnel exploitable et sourcé.</p>
+<ul>
+<li>Cas : note administrative, fiche technique, TDR, compte rendu, plan de présentation, synthèse de sources publiques.</li>
+<li>Démonstration : extraire les obligations d'un faux TDR et construire une synthèse avec attribution des éléments à la source.</li>
+<li>Exercices : comparer résumé IA au texte fourni, repérer une citation fabriquée, améliorer une note.</li>
+<li><strong>Production :</strong> note de synthèse d'une à deux pages + registre des vérifications. Critère : aucun chiffre présenté comme source s'il n'est pas présent dans le document.</li>
+</ul>
+<h2>Module 4 — Excel, données, reporting et aide à la décision</h2>
+<p><strong>Durée :</strong> 6 h (1,5 h + 4,5 h). <strong>But :</strong> exploiter un tableau fictif, vérifier les calculs et expliquer des écarts.</p>
+<ul>
+<li>Préparation : schéma CSV, types, valeurs manquantes et doublons ; somme, ratio, indicateur et graphiques simples.</li>
+<li>Démonstration : <code>donnees_indicateurs_100pourcent_fictives.csv</code> avec régions codées R01–R12 et activités fictives VIH/TB.</li>
+<li>Exercices : calculer réalisation = réalisées / prévues ; complétude = rapports reçus / attendus ; dépense / budget ; produire un tableau commenté.</li>
+<li><strong>Production :</strong> tableau de reporting et note de décision sans attribution clinique. Critères : totaux recalculés manuellement, dénominateurs explicites, anomalies signalées.</li>
+</ul>
+<h2>Module 5 — IA responsable, sécurité et approfondissements</h2>
+<p><strong>Durée :</strong> 6 h (2 h + 4 h). <strong>But :</strong> appliquer une gouvernance opérationnelle de l'IA.</p>
+<ul>
+<li>Règles : confidentialité et secret professionnel, données sensibles, autorisations d'outil, traçabilité, supervision humaine.</li>
+<li>Atelier : audits croisés de prompts et résultats ; rejeter / corriger les entrées risquées.</li>
+<li>Approfondissements <strong>optionnels</strong> : automatisation légère, workflows, agents IA, n8n, QGIS — seulement si diagnostic et validation DELM le justifient, sans rogner le socle.</li>
+<li><strong>Production :</strong> charte personnelle d'usage et protocole de contrôle d'un document/indicateur.</li>
+</ul>
+<h2>Module 6 — Cas intégrateur, évaluation finale et plan d'action</h2>
+<p><strong>Durée :</strong> 6 h (0,5 h consignes + 4,5 h réalisation et soutenance + 1 h bilan). <strong>But :</strong> réaliser une tâche complète et prouver l'autonomie.</p>
+<ul>
+<li>Cas simulé : préparation d'une note mensuelle de suivi d'activités associatives à partir de fichiers fictifs.</li>
+<li>Étapes : cadrage → prompt → brouillon → calcul indépendant → validation sources → correction → présentation de 5 minutes → plan d'action.</li>
+<li><strong>Production :</strong> dossier final incluant note synthétique, indicateurs contrôlés, prompt révisé, checklist, plan d'usage individuel à 30 jours.</li>
+<li><strong>Évaluation :</strong> même grille que l'entrée + rubriques de compétence. Aucun outil IA ne décide seul d'une action de santé publique.</li>
+</ul>
+<h2>Attendus transversaux</h2>
+<p>À chaque module, les participants conservent les traces : <strong>source admissible</strong>, <strong>prompt</strong>, <strong>sortie</strong>, <strong>contrôle</strong>, <strong>correction</strong>, <strong>preuve de compétence</strong>. Des adaptations métier sont introduites pour gestion administrative, finances, surveillance et suivi-évaluation, en restant sur des dossiers simulés.</p>
+<p><strong>Validation nécessaire :</strong> niveau des apprenants, calendrier précis, compétences Excel, autorisations informatiques, accessibilité et choix des outils.</p>
+</article><footer>Dossier de travail du 10.10.2026 — exemples fictifs et documents à personnaliser</footer></body></html>
